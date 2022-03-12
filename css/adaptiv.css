@@ -1,0 +1,68 @@
+
+  /* Здесь будут все стили для устройств с viewport больше 1400 пикселей. */
+
+ /* Стили для устройств, у которых ширина viewport меньше 1400 пикселей, но больше 990 пикселей. Эти стили будут использованы для планшетов и ноутбуков с низким разрешением */
+
+
+  @media (max-width: 990px) {
+   body {
+    font-size: 16px;
+   }
+.disk{
+display: block;}
+.mint{
+display: block;
+  }
+  .result{
+    display: flex;
+     flex-direction: column;}
+    .ghost
+    {width: 100%;}
+    .questions_form{
+      display: block;
+    }
+    .ahiv{
+      display: block;
+    }
+
+.road{
+  display: flex;
+  flex-direction: column;
+}
+  }
+  @media (max-width: 770px) {
+    body {
+      font-size: 14px;
+     }
+    .img{
+      height: auto;
+      width: 100%;
+   }
+      .disk{
+          display: block;
+      }
+    .mint{ display: block;}
+    .ghost
+    {width: 100%;}
+    .result{
+        display:flex;
+        flex-direction: column;
+    }
+    .questions_form{
+      display: block;
+    }
+    .ahiv{
+      display: block;
+    }
+    .road{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media (min-width: 1170px) {
+    .conteiner {
+        max-width: 1170px;}
+     
+    }}
+
+  
