@@ -23,6 +23,39 @@ h1{
     letter-spacing: 0em;
     text-align: left;    
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+.header__menu li {
+    list-style: none;
+    margin: 0px 0px 0px 36px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header__menu li>a{
+    text-decoration: none;
+    font-family: 'Hauora';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #636363;;
+}
+.logo{
+    margin-left: auto;
+}
+.content-wrapper{
+    margin-top: 78px;
+    padding: 10px;
+    line-height: 34px;
+}
 .step_s{
     font-family: 'Hauora';
 font-style: normal;
@@ -110,7 +143,7 @@ font-weight: 700;
 background: linear-gradient(360deg, #171717 -2.58%, #010101 91.03%);
 border-radius: 12px;
 }
-#heading_sale{
+.heading_sale{
     font-family: Montserrat;
 font-size: 56px;
 font-style: normal;
