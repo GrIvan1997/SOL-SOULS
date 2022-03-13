@@ -55,6 +55,17 @@
       display: flex;
       flex-direction: column;
     }
+    .img_nft{
+      height: auto;
+      width: 100%;
+     }
+     .see_roadmap{
+       display: flex;
+       flex-direction: column;
+     }
+     .bio{
+       min-width: 100%;
+     }
   }
   
   @media (max-width: 375px) {
