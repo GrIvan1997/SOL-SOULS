@@ -94,6 +94,7 @@ text-align: left;
 }
 
 .bio{
+   
     min-width: 540px;
 
 }
@@ -139,7 +140,7 @@ font-weight: 700;
 }
 .mint{
     display: flex;
-    margin-top: 70px;
+    margin-top: 155px;
 background: linear-gradient(360deg, #171717 -2.58%, #010101 91.03%);
 border-radius: 12px;
 }
