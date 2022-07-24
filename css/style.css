@@ -141,7 +141,7 @@ font-weight: 700;
 .Sale{
     background-image: url(../img/background2.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
    background-position: right;
 }
 .mint{
