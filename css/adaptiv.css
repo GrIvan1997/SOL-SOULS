@@ -51,6 +51,9 @@
     .ahiv{
       display: block;
     }
+    .prev{
+      margin-left: 0px;
+    }
     .road{
       display: flex;
       flex-direction: column;
